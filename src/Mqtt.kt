@@ -15,9 +15,9 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence
  * @param clientName Name of the client to be identified in the network.
  * @param topics A list of topics to subscribe as soon as the client is connected.
  */
-class Mqtt(var broker: String,
+class Mqtt(private val broker: String,
            clientName: String,
-           var topics: Array<String> = arrayOf(),
+           private val topics: Array<String> = arrayOf(),
            persistence: MemoryPersistence = MemoryPersistence())
         : MqttClient(broker, clientName, persistence) {
 
