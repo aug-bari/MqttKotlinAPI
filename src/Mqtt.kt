@@ -17,7 +17,7 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence
  */
 class Mqtt(private val broker: String,
            clientName: String,
-           private val topics: Array<String> = arrayOf(),
+           private var topics: Array<String> = arrayOf(),
            persistence: MemoryPersistence = MemoryPersistence())
         : MqttClient(broker, clientName, persistence) {
 
