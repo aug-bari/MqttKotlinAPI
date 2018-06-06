@@ -1,18 +1,17 @@
 package org.augbari
 
-import io.kotlintest.matchers.boolean.shouldBeFalse
-import io.kotlintest.matchers.boolean.shouldBeTrue
-import io.kotlintest.specs.StringSpec
+import org.junit.Assert.assertEquals
+import org.junit.Test
 
-
-class MqttTest : StringSpec() {
-    init {
+class MqttTest {
+    @Test
+    fun testConnection() {
         val client = Mqtt("tcp://broker.shiftr.io", "testClient")
 
         client.connect("try", "try")
-        client.isConnected.shouldBeTrue()
+        assertEquals(client.isConnected, true)
 
         client.disconnect()
-        client.isConnected.shouldBeFalse()
+        assertEquals(client.isConnected, false)
     }
 }
