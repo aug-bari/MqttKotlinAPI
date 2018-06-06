@@ -7,8 +7,12 @@ buildscript {
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.0.0'
     }
 }
+
+apply plugin: 'java-library'
+apply plugin: 'org.junit.platform.gradle.plugin'
 
 group 'AUG-Bari'
 version '1.0-SNAPSHOT'
@@ -25,6 +29,10 @@ dependencies {
     implementation "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.2"
     testCompile 'io.kotlintest:kotlintest-runner-junit5:3.1.6'
     testImplementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.11.0'
+    testCompile("org.junit.jupiter:junit-jupiter-api:5.2.0")
+    testRuntime("org.junit.jupiter:junit-jupiter-engine:5.2.0")
+    testCompile("junit:junit:4.12")
+    testRuntime("org.junit.vintage:junit-vintage-engine:5.2.0")
 }
 
 compileKotlin {
@@ -35,8 +43,6 @@ compileTestKotlin {
 }
 
 test {
-    useJUnitPlatform()
-
     // show standard out and standard error of the test JVM(s) on the console
     testLogging.showStandardStreams = true
 

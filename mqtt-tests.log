@@ -1,0 +1,130 @@
+2018-06-06 23:54:34.025 [main] DEBUG io.kotlintest.runner.junit5.KotlinTestEngine - JUnit discovery request [configParameters=LauncherConfigurationParameters []; classSelectors=[]; classpathResourceSelectors=[]; classpathRootSelectors=[ClasspathRootSelector [classpathRoot = file:///home/paolo/dev/MqttKotlinAPI/build/classes/java/main/], ClasspathRootSelector [classpathRoot = file:///home/paolo/dev/MqttKotlinAPI/build/classes/kotlin/main/], ClasspathRootSelector [classpathRoot = file:///home/paolo/dev/MqttKotlinAPI/build/classes/java/test/], ClasspathRootSelector [classpathRoot = file:///home/paolo/dev/MqttKotlinAPI/build/classes/kotlin/test/], ClasspathRootSelector [classpathRoot = file:///home/paolo/dev/MqttKotlinAPI/build/resources/test/]]; methodSelectors=[]; fileSelectors=[]; directorySelectors=[]; moduleSelectors=[]; packageSelectors=[]; uniqueIdSelectors=[]; uriSelectors=[]; classnameFilters=[Includes class names that match regular expression '^.*Tests?$']; packageNameFilters=[]; uniqueId=[engine:kotlintest]]
+2018-06-06 23:54:34.070 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/dnsns.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.2.0/ea230ba8c0b71943d4dd2bb215ca29041c89966e/junit-platform-launcher-1.2.0.jar
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/java-atk-wrapper.jar
+file:/home/paolo/dev/MqttKotlinAPI/build/resources/main
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.0.2/11752d3f24d1a9deda4533a7ca18d8496417ceeb/org.eclipse.paho.client.mqttv3-1.0.2.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.41/7e34f009642702250bccd9e5255866f408962a05/kotlin-stdlib-1.2.41.jar
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/nashorn.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.11/23bba0ff497ec61fbca967d9b641c7681a71edb3/reflections-0.9.11.jar
+file:/home/paolo/dev/MqttKotlinAPI/build/classes/java/main/
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-alpha2/34fa1d87256bbdb376ae7f6fa7e479610cd07dce/slf4j-api-1.8.0-alpha2.jar
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/sunpkcs11.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core/0.7.1/6258e5f2afd375ef6fd12161a590d6fcc3549361/arrow-core-0.7.1.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.1.6/834c5ac5a23e41729c3cd058f2ea61fa1b6efb6b/kotlintest-runner-jvm-3.1.6.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.11.0/e6b751e02120c08702d98750f6a80bc25343b7f5/log4j-core-2.11.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.41/d0cfb3ef897c00449e5e696355db9506225fb507/kotlin-stdlib-jdk7-1.2.41.jar
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/zipfs.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.11.0/9ba207b78e470fe7765ebee14f1f0336c9cbcc18/log4j-slf4j-impl-2.11.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.0/d2e03d9b21020746d48fe45834ff7d71fbcbd7b2/junit-platform-commons-1.0.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.0/5602a195a442636276efefce2a4c7b418cd67e5c/junit-platform-launcher-1.0.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/com.univocity/univocity-parsers/2.6.1/f6f41322f4d2b4677d0c3b59ab33e745896637de/univocity-parsers-2.6.1.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.2.0/dbce1d822d3dc6c61703b340cd79018518685451/junit-platform-commons-1.2.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/cldrdata.jar
+file:/home/paolo/dev/MqttKotlinAPI/build/classes/java/test/
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-assertions/3.1.6/45e05d75386c8d85e4868cef9759ccd7eb1f03d1/kotlintest-assertions-3.1.6.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.22.5/a654b6962cbdf394cd88e6fc173314c92dd50edb/kotlinx-coroutines-core-0.22.5.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.0/bede79a3f150711634a3047985517431bf6499f2/log4j-api-2.11.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-junit5/3.1.6/21190afbc45b1ffc877133617110ffc9af350d74/kotlintest-runner-junit5-3.1.6.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.0/c8e2a3e3bc7f3e4bb5075306452db5290f9b117a/opentest4j-1.1.0.jar
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/localedata.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar
+file:/home/paolo/dev/MqttKotlinAPI/build/resources/test/
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/sunec.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kindedj/kindedj/1.1.0/462731347602a3f24e3f21feec50928f9a657741/kindedj-1.1.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.0/fdc6f63a689b894529ea5e9e218b65422748fd/junit-platform-engine-1.0.0.jar
+file:/home/paolo/dev/MqttKotlinAPI/build/classes/kotlin/test/
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.2.0/9cd901df48d88d8e605a6ccb2c3f140c92db6bf2/junit-jupiter-api-5.2.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.2.0/35fa3529ce843ada1a10b0909ccb4a8148ee638d/junit-platform-engine-1.2.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/17c564968cae80b954b294f8564c492da56bd7b5/kotlin-reflect-1.2.31.jar
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/jfxrt.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.2.0/de87318ccd3dfa1a98ebfef792d362776f1914de/junit-jupiter-engine-5.2.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-annotations/0.7.1/391929cd47d022b989b0a80e6d4395e0807191f0/arrow-annotations-0.7.1.jar
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/sunjce_provider.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-core/3.1.6/a2436b693219b9148a12ad2d3c9ee548a9878845/kotlintest-core-3.1.6.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.41/5e34ca185bbea7452d704ed3537a22314a809383/kotlin-stdlib-jdk8-1.2.41.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/5.2.0/ff11a5d0674df5e2264e50fe3f8a3485a4399ccb/junit-vintage-engine-5.2.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.21.0-GA/598244f595db5c5fb713731eddbb1c91a58d959b/javassist-3.21.0-GA.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4/opentest4j-1.0.0.jar
+file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/jaccess.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar
+file:/home/paolo/dev/MqttKotlinAPI/build/classes/kotlin/main/
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.0/2931079616796bc4537f7e3c236f8fdfe7e51237/junit-platform-console-1.0.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-suite-api/1.2.0/fcc7e77c6e143e775596fb6788ce183f8f77b9e0/junit-platform-suite-api-1.2.0.jar
+file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar
+2018-06-06 23:54:34.074 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/dnsns.jar
+2018-06-06 23:54:34.086 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.2.0/ea230ba8c0b71943d4dd2bb215ca29041c89966e/junit-platform-launcher-1.2.0.jar
+2018-06-06 23:54:34.087 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/java-atk-wrapper.jar
+2018-06-06 23:54:34.087 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/dev/MqttKotlinAPI/build/resources/main
+2018-06-06 23:54:34.088 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.0.2/11752d3f24d1a9deda4533a7ca18d8496417ceeb/org.eclipse.paho.client.mqttv3-1.0.2.jar
+2018-06-06 23:54:34.088 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.41/7e34f009642702250bccd9e5255866f408962a05/kotlin-stdlib-1.2.41.jar
+2018-06-06 23:54:34.089 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/nashorn.jar
+2018-06-06 23:54:34.089 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.reflections/reflections/0.9.11/23bba0ff497ec61fbca967d9b641c7681a71edb3/reflections-0.9.11.jar
+2018-06-06 23:54:34.089 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/dev/MqttKotlinAPI/build/classes/java/main/
+2018-06-06 23:54:34.117 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.8.0-alpha2/34fa1d87256bbdb376ae7f6fa7e479610cd07dce/slf4j-api-1.8.0-alpha2.jar
+2018-06-06 23:54:34.117 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/sunpkcs11.jar
+2018-06-06 23:54:34.117 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core/0.7.1/6258e5f2afd375ef6fd12161a590d6fcc3549361/arrow-core-0.7.1.jar
+2018-06-06 23:54:34.117 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.1.6/834c5ac5a23e41729c3cd058f2ea61fa1b6efb6b/kotlintest-runner-jvm-3.1.6.jar
+2018-06-06 23:54:34.118 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.11.0/e6b751e02120c08702d98750f6a80bc25343b7f5/log4j-core-2.11.0.jar
+2018-06-06 23:54:34.118 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.41/d0cfb3ef897c00449e5e696355db9506225fb507/kotlin-stdlib-jdk7-1.2.41.jar
+2018-06-06 23:54:34.118 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/zipfs.jar
+2018-06-06 23:54:34.119 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.11.0/9ba207b78e470fe7765ebee14f1f0336c9cbcc18/log4j-slf4j-impl-2.11.0.jar
+2018-06-06 23:54:34.119 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.0/d2e03d9b21020746d48fe45834ff7d71fbcbd7b2/junit-platform-commons-1.0.0.jar
+2018-06-06 23:54:34.119 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.0/5602a195a442636276efefce2a4c7b418cd67e5c/junit-platform-launcher-1.0.0.jar
+2018-06-06 23:54:34.119 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/com.univocity/univocity-parsers/2.6.1/f6f41322f4d2b4677d0c3b59ab33e745896637de/univocity-parsers-2.6.1.jar
+2018-06-06 23:54:34.120 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.2.0/dbce1d822d3dc6c61703b340cd79018518685451/junit-platform-commons-1.2.0.jar
+2018-06-06 23:54:34.120 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar
+2018-06-06 23:54:34.120 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/cldrdata.jar
+2018-06-06 23:54:34.121 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/dev/MqttKotlinAPI/build/classes/java/test/
+2018-06-06 23:54:34.121 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-assertions/3.1.6/45e05d75386c8d85e4868cef9759ccd7eb1f03d1/kotlintest-assertions-3.1.6.jar
+2018-06-06 23:54:34.121 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.22.5/a654b6962cbdf394cd88e6fc173314c92dd50edb/kotlinx-coroutines-core-0.22.5.jar
+2018-06-06 23:54:34.122 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.0/bede79a3f150711634a3047985517431bf6499f2/log4j-api-2.11.0.jar
+2018-06-06 23:54:34.122 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-junit5/3.1.6/21190afbc45b1ffc877133617110ffc9af350d74/kotlintest-runner-junit5-3.1.6.jar
+2018-06-06 23:54:34.122 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.0/c8e2a3e3bc7f3e4bb5075306452db5290f9b117a/opentest4j-1.1.0.jar
+2018-06-06 23:54:34.123 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/localedata.jar
+2018-06-06 23:54:34.123 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar
+2018-06-06 23:54:34.123 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/dev/MqttKotlinAPI/build/resources/test/
+2018-06-06 23:54:34.124 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/sunec.jar
+2018-06-06 23:54:34.124 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kindedj/kindedj/1.1.0/462731347602a3f24e3f21feec50928f9a657741/kindedj-1.1.0.jar
+2018-06-06 23:54:34.124 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.0/fdc6f63a689b894529ea5e9e218b65422748fd/junit-platform-engine-1.0.0.jar
+2018-06-06 23:54:34.124 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/dev/MqttKotlinAPI/build/classes/kotlin/test/
+2018-06-06 23:54:34.126 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.2.0/9cd901df48d88d8e605a6ccb2c3f140c92db6bf2/junit-jupiter-api-5.2.0.jar
+2018-06-06 23:54:34.128 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.2.0/35fa3529ce843ada1a10b0909ccb4a8148ee638d/junit-platform-engine-1.2.0.jar
+2018-06-06 23:54:34.128 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar
+2018-06-06 23:54:34.128 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.2.31/17c564968cae80b954b294f8564c492da56bd7b5/kotlin-reflect-1.2.31.jar
+2018-06-06 23:54:34.128 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/jfxrt.jar
+2018-06-06 23:54:34.129 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.2.0/de87318ccd3dfa1a98ebfef792d362776f1914de/junit-jupiter-engine-5.2.0.jar
+2018-06-06 23:54:34.129 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-annotations/0.7.1/391929cd47d022b989b0a80e6d4395e0807191f0/arrow-annotations-0.7.1.jar
+2018-06-06 23:54:34.129 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/sunjce_provider.jar
+2018-06-06 23:54:34.129 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-core/3.1.6/a2436b693219b9148a12ad2d3c9ee548a9878845/kotlintest-core-3.1.6.jar
+2018-06-06 23:54:34.130 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.41/5e34ca185bbea7452d704ed3537a22314a809383/kotlin-stdlib-jdk8-1.2.41.jar
+2018-06-06 23:54:34.130 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/5.2.0/ff11a5d0674df5e2264e50fe3f8a3485a4399ccb/junit-vintage-engine-5.2.0.jar
+2018-06-06 23:54:34.131 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.21.0-GA/598244f595db5c5fb713731eddbb1c91a58d959b/javassist-3.21.0-GA.jar
+2018-06-06 23:54:34.133 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4/opentest4j-1.0.0.jar
+2018-06-06 23:54:34.134 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-4.b10.fc28.x86_64/jre/lib/ext/jaccess.jar
+2018-06-06 23:54:34.136 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar
+2018-06-06 23:54:34.136 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/dev/MqttKotlinAPI/build/classes/kotlin/main/
+2018-06-06 23:54:34.139 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.0/2931079616796bc4537f7e3c236f8fdfe7e51237/junit-platform-console-1.0.0.jar
+2018-06-06 23:54:34.139 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-suite-api/1.2.0/fcc7e77c6e143e775596fb6788ce183f8f77b9e0/junit-platform-suite-api-1.2.0.jar
+2018-06-06 23:54:34.139 [pool-2-thread-1] DEBUG org.reflections.Reflections - [Thread[pool-2-thread-1,5,main]] scanning file:/home/paolo/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar
+2018-06-06 23:54:34.141 [main] INFO  org.reflections.Reflections - Reflections took 67 ms to scan 55 urls, producing 2 keys and 2 values 
+2018-06-06 23:54:34.147 [main] DEBUG org.reflections.Reflections - expanded subtype io.kotlintest.specs.AbstractStringSpec -> io.kotlintest.specs.StringSpec
+2018-06-06 23:54:34.147 [main] DEBUG org.reflections.Reflections - expanded subtype io.kotlintest.AbstractSpec -> io.kotlintest.specs.AbstractStringSpec
+2018-06-06 23:54:34.147 [main] DEBUG org.reflections.Reflections - expanded subtype io.kotlintest.Spec -> io.kotlintest.AbstractSpec
+2018-06-06 23:54:34.147 [main] DEBUG org.reflections.Reflections - expanded subtype io.kotlintest.extensions.TestListener -> io.kotlintest.Spec
+2018-06-06 23:54:34.147 [main] DEBUG org.reflections.Reflections - expanded subtype io.kotlintest.specs.IntelliMarker -> io.kotlintest.specs.StringSpec
+2018-06-06 23:54:34.192 [main] DEBUG org.reflections.Reflections - expanded subtype org.eclipse.paho.client.mqttv3.IMqttClient -> org.eclipse.paho.client.mqttv3.MqttClient
+2018-06-06 23:54:34.223 [main] DEBUG io.kotlintest.runner.jvm.TestDiscovery - Scan discovered 4 classes...
+2018-06-06 23:54:34.441 [main] DEBUG io.kotlintest.runner.jvm.TestDiscovery - ...which has filtered to 1 non abstract classes
+2018-06-06 23:54:34.443 [main] DEBUG io.kotlintest.runner.jvm.TestDiscovery - Result is 1 classes after applying extensions
+2018-06-06 23:54:34.608 [main] DEBUG io.kotlintest.runner.junit5.KotlinTestEngine - JUnit execution request [configurationParameters=LauncherConfigurationParameters []; rootTestDescriptor=KotlinTestEngineDescriptor: [engine:kotlintest]]
+2018-06-06 23:54:34.612 [main] DEBUG io.kotlintest.runner.junit5.JUnitTestRunnerListener - Engine started; classes=[[class org.augbari.MqttTest]]
+2018-06-06 23:54:34.614 [main] DEBUG io.kotlintest.runner.jvm.TestEngine - Submitting 1 specs
+2018-06-06 23:54:34.615 [main] DEBUG io.kotlintest.runner.jvm.TestEngine - Waiting for spec execution service to terminate
+2018-06-06 23:54:34.918 [pool-3-thread-1] DEBUG io.kotlintest.runner.junit5.JUnitTestRunnerListener - prepareSpec [Description(parents=[], name=MqttTest)]
+2018-06-06 23:54:34.939 [pool-3-thread-1] DEBUG io.kotlintest.runner.junit5.JUnitTestRunnerListener - completeSpec [Description(parents=[], name=MqttTest)]
+2018-06-06 23:54:34.943 [pool-3-thread-1] DEBUG io.kotlintest.runner.junit5.JUnitTestRunnerListener - Notifying junit that spec finished [engine:kotlintest]/[spec:MqttTest] TestExecutionResult [status = SUCCESSFUL, throwable = null]
+2018-06-06 23:54:34.947 [main] DEBUG io.kotlintest.runner.junit5.JUnitTestRunnerListener - Engine finished; throwable=[null]
