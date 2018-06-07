@@ -62,7 +62,7 @@ class Mqtt(private val broker: String,
         try {
             super.connect(connectOptions)
             if (topics.isNotEmpty())
-                subscribe(topics)
+                subscribe(*topics)
 
             println("Connected.")
         } catch(e: MqttException) {
@@ -71,21 +71,11 @@ class Mqtt(private val broker: String,
     }
 
     /**
-     * Subscribe to a topic.
-     *
-     * @param topic The MQTT topic to subscribe to.
-     */
-    override fun subscribe(topic: String) {
-        topics += topic
-        super.subscribe(topic)
-    }
-
-    /**
-     * Subscribe to a set of topics.
+     * Subscribe to topic or a set of topics.
      *
      * @param topics MQTT topics to subscribe to.
      */
-    override fun subscribe(topics: Array<String>) {
+    override fun subscribe(vararg topics: String) {
         this.topics += topics
         super.subscribe(topics)
     }
@@ -107,10 +97,10 @@ class Mqtt(private val broker: String,
     /**
      * Send a text message to a set of MQTT topics.
      *
-     * @param topics A set of topics to send the message to.
      * @param payload The textual message to send.
+     * @param topics A set of topics to send the message to.
      */
-    fun send(topics: Array<String>, payload: String) {
+    fun send(payload: String, vararg topics: String) {
         val message = MqttMessage()
         message.payload = payload.toByteArray()
 
